@@ -1,6 +1,6 @@
 {
   "name": "gupshup-whatsapp-notifications",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This package is use for gupshup whatsapp notifications.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "gupshup",
     "whatsapp messages",
     "whatsapp notifications",
-    "self serve gupshup"
+    "whatsapp self serve platform",
+    "whatsapp",
+    "axios"
   ],
   "homepage": "https://github.com/dev0077/gupshup-whatsapp-notifications#readme",
   "bugs": {
