@@ -71,7 +71,7 @@ After installing package and create an account on gupshup, you need to use `what
 `Eg:
 const **notificationInputData** = {
         channel: 'whatsapp',
-        receiverNumbers: ["<opt-in user1>", "<opt-in user2>"],
+        receiverNumbers: ["opt-in user1", "opt-in user2"],
         message: 'Hi Devs...',
         senderNumber: `91*******21`,
         appName: 'XYZ',
