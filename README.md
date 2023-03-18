@@ -68,8 +68,8 @@ $ npm install --save gupshup-whatsapp-notifications
 
 After installing package and create an account on gupshup, you need to use `whatsappNotifications` method and need to pass in parameter.
 
-`Eg:
-const **notificationInputData** = {
+Eg:
+```const **notificationInputData** = {
         channel: 'whatsapp',
         receiverNumbers: ["opt-in user1", "opt-in user2"],
         message: 'Hi Devs...',
@@ -77,7 +77,8 @@ const **notificationInputData** = {
         appName: 'XYZ',
         gupshupApiKey: 'ycs******************s9kb'
     }
-const notificationRes = await **whatsappNotifications(notificationInputData)**;
+const notificationRes = await whatsappNotifications(notificationInputData);
+```
 `
 | Fields | Value | Description |
 | :---: | :--- | :--- |
