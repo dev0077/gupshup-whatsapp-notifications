@@ -89,7 +89,7 @@ const notificationRes = await **whatsappNotifications(notificationInputData)**;
 | `gupshupApiKey` | string value | It is your gupshup API key |
 
 
-* The response of this method after successfully exection
+* The response of this method after successfully execution
 
 `Eg:
 {
