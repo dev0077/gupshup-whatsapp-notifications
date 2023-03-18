@@ -71,7 +71,7 @@ After installing package and create an account on gupshup, you need to use `what
 `Eg:
 const **notificationInputData** = {
         channel: 'whatsapp',
-        receiverNumbers: ["<opt-in user1>", "<opt-in user2>"],
+        receiverNumbers: ["opt-in user1", "opt-in user2"],
         message: 'Hi Devs...',
         senderNumber: `91*******21`,
         appName: 'XYZ',
@@ -89,8 +89,14 @@ const notificationRes = await **whatsappNotifications(notificationInputData)**;
 | `gupshupApiKey` | string value | It is your gupshup API key |
 
 
-![Screenshot from 2023-03-17 17-09-01](https://user-images.githubusercontent.com/96247196/225894517-b55ec703-3a74-4eb1-bf6b-89a19bf61964.png)
+* The response of this method after successfully execution
 
+`Eg:
+{
+    "status": "submitted",
+    "messageId": "168a9031-cd0b-4ed5-97be-6c333d1b5e39"
+}
+`
 ## Note:
 * For sandbox account gupshup sends message only one number. If we provide two numbers in an array, api gives success response with **messageId** and **status: submitted** but we don't get any message on whatsapp.
 
